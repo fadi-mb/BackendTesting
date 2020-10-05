@@ -16,6 +16,8 @@ const knex = require("knex")({
     }
 });
 
+console.log("testAdnan");
+
 exports.testPerformance = [
     async (req, res, next) => {
         try {
